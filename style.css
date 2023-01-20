@@ -124,3 +124,19 @@ main {
 .movie:hover .overview {
   transform: translateY(0);
 }
+
+
+@media screen and (max-width: 800px) {
+  #logo {
+    position: absolute;
+  font-size: 2rem;
+  left: 0;
+  }
+  header {
+    padding: 0.5rem 0;
+    justify-content: right;
+  }
+  .search {
+    padding: 0.25rem 0.5rem;
+  }
+}
