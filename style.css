@@ -14,21 +14,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
-#logo{
-   
-        text-align: center;
-        display: flex;
-        font-size: 2.5rem;
-        font-weight: bold;
-        color: rgba(255, 255, 255, 0.888);
-       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        position: absolute;
-        font-weight: normal;
-        top: 0px;
-        left: 0px;
-        border: 4px solid var(--primary-color);
-  border-radius: 10px;
-}
+
 header {
   padding: 1rem;
   display: flex;
@@ -124,13 +110,29 @@ main {
 .movie:hover .overview {
   transform: translateY(0);
 }
-
+#imdb {
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  width: 200px;
+  height: 70px;
+  border: 5px solid #7a0303;
+  border-radius: 20px;
+}
 
 @media screen and (max-width: 800px) {
-  #logo {
+  #imdb {
+ 
     position: absolute;
-  font-size: 2rem;
-  left: 0;
+    top: 0;
+    left: 0;
+    
+    width: 180px;
+    height: 50px;
+    border: 5px solid #7a0303;
+    border-radius: 20px;
   }
   header {
     padding: 0.5rem 0;
